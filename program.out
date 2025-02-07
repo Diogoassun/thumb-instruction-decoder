@@ -1,0 +1,60 @@
+0x755	LSL_decode0000 r5, r2, #29
+entry: 0, op: 0
+0xa5b	LSR_decode0000 r3, r3, #9
+entry: 0, op: 1
+0x12cb	ASR_decode0001 r3, r1, #11
+entry: 1, op: 0
+0x18ad	ADD_decode0001 r5, r5, r2
+entry: 1, op: 0
+0x1a5b	SUB_decode0001 r3, r3, r1
+entry: 1, op: 1
+0x1cdd	ADD_decode0001 r5, r3, #3
+entry: 1, op: 0
+0x1ebb	SUB_decode0001 r3, r7, #2
+entry: 1, op: 1
+0x26df	MOV_decode0010 r6, #-33
+entry: 2, op: 0
+0x2bf9	CMP_decode0010 r3, #-7
+entry: 2, op: 1
+0x31da	ADD_decode0011 r1, #-38
+entry: 3, op: 0
+0x3ae8	SUB_decode0011 r2, #-24
+entry: 3, op: 1
+0x516f	STR r7, [r5, r5]
+entry: 5, op: 0
+0x53b4	STRH r4, [r6, r6]
+entry: 5, op: 1
+0x5527	STRB r7, [r4, r4]
+entry: 5, op: 2
+0x57ad	LDRSB r5, [r5, r6]
+entry: 5, op: 3
+0x596f	LDR r7, [r5, r5]
+entry: 5, op: 0
+0x5b51	LDRH r1, [r2, r5]
+entry: 5, op: 1
+0x5c6d	LDRB r5, [r5, r1]
+entry: 5, op: 2
+0x5fb7	LDRSH r7, [r6, r6]
+entry: 5, op: 3
+0x6154	STR r4, [r2, #20]
+entry: 6, op: 0
+0x6b57	LDR r7, [r2, #52]
+entry: 6, op: 1
+0x731a	STRB r2, [r3, #12]
+entry: 7, op: 0
+0x7ad1	LDRB r1, [r2, #11]
+entry: 7, op: 1
+0x82fb	STRH r3, [r7, #22]
+entry: 8, op: 0
+0x83ab	STRH r3, [r5, #28]
+entry: 8, op: 0
+0x9366	STR r3, [sp, #408]
+entry: 9, op: 0
+0x9bff	LDR r3, [sp, #-4]
+entry: 9, op: 1
+0xa5ed	ADD r5, pc, #-76
+entry: 10, op: 0
+0xad6e	ADD r5, sp, #440
+entry: 10, op: 1
+0xbd15	POP {r0, r2, r4, pc}
+entry: 11, op: 1
